@@ -507,4 +507,33 @@ Install-Package Dapper
 - QueryMultiple
 - ...
 
+## 应用配置
 
+```c#
+var appSetting = new AppSetting();
+_configuration.Bind(appSetting);
+
+var webSetting = new WebSetting();
+_configuration.GetSection("WebSetting").Bind(webSetting);
+
+// 注册配置选项的服务
+services.Configure<AppSetting>(_configuration);
+
+func(IOptions<AppSettig> appOptions)
+```
+
+
+
+```c#
+public class Factory{
+    private static string IDBHelperConfig = ConfigurationManager.AppSettings["IDBHelperConfig"];
+}
+```
+
+## 日志
+
++ 日志级别 LogLevel
+
+builder.SetMinimumLevel(LogLevel.trace)
+
+trace<debug<information<error<critical
