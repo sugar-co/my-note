@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern", "DesignPattern\DesignPattern.csproj", "{D238422D-290F-475B-9C92-1ABF457A6D88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adaptor", "Adaptor\Adaptor.csproj", "{E31E982E-1CEE-42A8-AD5B-9002C68F86EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer", "Observer\Observer.csproj", "{3E112E85-06E3-4049-A392-55541EC1034E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D238422D-290F-475B-9C92-1ABF457A6D88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D238422D-290F-475B-9C92-1ABF457A6D88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D238422D-290F-475B-9C92-1ABF457A6D88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D238422D-290F-475B-9C92-1ABF457A6D88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E31E982E-1CEE-42A8-AD5B-9002C68F86EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E31E982E-1CEE-42A8-AD5B-9002C68F86EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E31E982E-1CEE-42A8-AD5B-9002C68F86EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E31E982E-1CEE-42A8-AD5B-9002C68F86EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E112E85-06E3-4049-A392-55541EC1034E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E112E85-06E3-4049-A392-55541EC1034E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E112E85-06E3-4049-A392-55541EC1034E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E112E85-06E3-4049-A392-55541EC1034E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B0413FD6-BE09-401E-9802-40D5B61FE48C}
+	EndGlobalSection
+EndGlobal
