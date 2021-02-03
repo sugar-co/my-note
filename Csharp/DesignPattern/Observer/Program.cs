@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Observer.Service;
+using System;
 
 namespace Observer
 {
@@ -6,7 +7,16 @@ namespace Observer
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var cat = new Cat();
+            //cat.AddObserver(new Dog());
+            //cat.AddObserver(new Baby());
+            //cat.AddObserver(new Father());
+            //cat.MiaoObserver();
+
+            cat.CatMiaoEvent+=new Dog().Wang;
+            cat.CatMiaoEvent+=new Baby().Cry;
+            cat.CatMiaoEvent+=new Father().Roar;
+            cat.MiaoEvent();
         }
     }
 }
